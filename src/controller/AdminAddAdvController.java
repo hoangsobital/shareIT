@@ -22,6 +22,7 @@ public class AdminAddAdvController extends HttpServlet {
     public AdminAddAdvController() {
         super();
         advDAO = new AdvertiseDAO();
+        //Hello
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
